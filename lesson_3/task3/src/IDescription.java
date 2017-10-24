@@ -3,8 +3,6 @@
 public interface IDescription {
 
     String getName();
-    double getWeight();
-    int getNumber();
-    int getPrice();
+    int getWeight();
 
 }
