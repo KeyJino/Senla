@@ -3,15 +3,11 @@
 public abstract class Product implements IDescription {
 
     private String name;
-    private int number;
-    private int price;
-    private double weight;
+    private int weight;
 
-    Product(String name, int [] values){
+    Product(String name, int weight){
         this.name = name;
-        this.number = values[0];
-        this.price = values[1];
-        this.weight = values[2];
+        this.weight = weight;
     }
 
     //Name
@@ -20,18 +16,15 @@ public abstract class Product implements IDescription {
     }
 
     //Weight
-    public double getWeight() {
+    public int getWeight() {
         return weight;
     }
 
-    //Number
-    public int getNumber() {
-        return number;
-    }
-
-    //Price
-    public int getPrice() {
-        return price;
+    public Product[] addProduct(Product[] stock, Product product) {
+        Product[] temp = new Product[stock.length];
+        System.arraycopy(stock, 0, temp, 0, temp.length);
+        temp[temp.length - 1] = product;
+        return temp;
     }
 
 }
