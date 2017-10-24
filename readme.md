@@ -1,6 +1,6 @@
-+ yes
-- no
-! reload
+####### 1) + yes
+####### 2) - no
+####### 3) ! reload
 
 ## lesson_1 
 1) task2 +
