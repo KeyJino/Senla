@@ -16,4 +16,4 @@
 1) task1 +
 2) task2 +
 3) task3 !
-4) task4 -
+4) task4 !
