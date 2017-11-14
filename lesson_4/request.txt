@@ -1,0 +1,5 @@
+130 30 50 Halk SuperMan
+140 40 60 Tor Flash
+150 40 60 Tor Flash
+160 30 60 Halk Flash
+170 30 50 Halk SuperMan
